@@ -20,6 +20,8 @@ Example:
 df_answer = pd.read_sql("""SELECT * FROM some_table""", connection)
 ```
 
+`data.sqlite` is a binary database file, so it cannot be displayed as plain text in VS Code. Install the recommended SQLite extension, then run **SQLite: Open Database** from the Command Palette and choose `data.sqlite` to browse its tables.
+
 Start by running `pipenv install` and `pipenv shell`. You can run the test suite at any time to check your work with `pytest` or `pytest -x` if you want to just run 1 test at a time. You can run the file to check print statement outputs with `python3 main.py`.
 
 ### Step 1
